@@ -1,4 +1,4 @@
-# Adapatation Science
+# Adaptation Science
 quantifying climate variability, developing sustainability metrics, designing equitable solutions
 
 # Adaptation Engineering 
