@@ -55,6 +55,22 @@ body {
   box-shadow: 0 0 10px rgba(0,0,0,0.05);
 }
 
+section {
+  margin-bottom: 2rem;
+}
+
+h1, h2 {
+  color: #2c3e50;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #ecf0f1;
+  font-size: 0.9rem;
+  color: #555;
+}
+
 .cv-button {
   display: inline-block;
   margin-top: 1rem;
@@ -70,21 +86,4 @@ body {
 .cv-button:hover {
   background-color: #1a242f;
   text-decoration: underline;
-}
-
-
-section {
-  margin-bottom: 2rem;
-}
-
-h1, h2 {
-  color: #2c3e50;
-}
-
-footer {
-  text-align: center;
-  padding: 1rem;
-  background-color: #ecf0f1;
-  font-size: 0.9rem;
-  color: #555;
 }
