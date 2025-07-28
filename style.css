@@ -1,11 +1,12 @@
 body {
   margin: 0;
   font-family: Georgia, serif;
-  background-color: white;
+  background-color: #ffffff;
   color: #212121;
   line-height: 1.6;
 }
 
+/* Navigation Bar */
 .navbar {
   background-color: #405b73;
   padding: 1rem;
@@ -30,6 +31,7 @@ body {
   text-decoration: underline;
 }
 
+/* Hero Section */
 .hero {
   background-size: cover;
   background-position: center;
@@ -40,37 +42,31 @@ body {
 }
 
 .hero-overlay {
-  background-color: rgba(0, 0, 0, 0.5); /* darken for contrast */
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 2rem;
   border-radius: 8px;
   display: inline-block;
 }
 
+/* Main Container */
 .container {
-  max-width: 800px;
-  margin: 2rem auto;
-  padding: 1rem;
-  background: white;
+  max-width: 900px;          /* 🔄 Wider than before */
+  margin: 3rem auto;         /* 🔄 More vertical spacing */
+  padding: 2rem;             /* 🔄 More interior spacing */
+  background: #ffffff;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0,0,0,0.05);
 }
 
 section {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 h1, h2 {
-  color: #BDBDBD;
+  color: #333333;            /* More contrast on white background */
 }
 
-footer {
-  text-align: center;
-  padding: 1rem;
-  background-color: #ecf0f1;
-  font-size: 0.9rem;
-  color: #555;
-}
-
+/* CV Button */
 .cv-button {
   display: inline-block;
   margin-top: 1rem;
@@ -81,7 +77,24 @@ footer {
   text-decoration: none;
   border-radius: 6px;
   transition: background-color 0.3s ease;
+  text-align: center;
 }
+
+/* Center the CV button */
+.cv-button-container {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #ecf0f1;
+  font-size: 0.9rem;
+  color: #555;
+}
+
 
 .cv-button:hover {
   background-color: #1a242f;
